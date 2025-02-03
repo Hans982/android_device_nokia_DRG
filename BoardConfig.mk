@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+ALLOW_MISSING_DEPENDENCIES := true
+TARGET_DISABLE_EPPE := true
+BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
 DEVICE_PATH := device/nokia/DRG
 
 # Inherit from nokia sdm660-common
